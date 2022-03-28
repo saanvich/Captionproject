@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    background-color: rgb(95, 175, 95);
+}
+
+body {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+#boy {
+    height: 195px;
+}
+
+.change{
+    color: #9c27b0;
+}
+.change{
+    content: "";
+    animation: change 15s linear infinite;
+}
+
+@keyframes change{
+    0%{
+        content: "About coding classes";
+        color: red;
+    }
+
+   10%{
+       content: "About coding classes";
+       color: yellow;
+   }
+
+   20%{
+       content: "About coding classes";
+       color: pink;
+   }
+
+   30%{
+       content: "About coding classes";
+       color: black;
+   }
+
+   40%{
+       content: "About coding classes";
+       color: #ee82ee;
+   }
+   
+    50%{
+       content: "About coding classes";
+       color: orange;
+   }
+   
+    60%{
+       content: "About coding classes";
+       color: green;
+   }
+   
+    70%{
+       content: "About coding classes";
+       color: #8b008b;
+   }
+   
+    80%{
+       content: "About coding classes";
+       color: #800080;
+   }
+   
+    90%{
+       content: "About coding classes";
+       color: #4b0082;
+   }
+   
+    100%{
+       content: "About coding classes";
+       color: #32cd32;
+   }
+   
+}
+
+#ty {
+    color: #9c28b0;
+}
+
+#ty{ 
+    content: "";
+    animation: change 15s linear infinite;
+}
+
+@keyframes ty{
+    0%{
+        content: "Thank You";
+        color: blue;
+    }
+
+   10%{
+       content: "Thank You";
+       color: darkblue;
+   }
+
+   20%{
+       content: "Thank You";
+       color: lightblue;
+   }
+
+   30%{
+       content: "Thank You";
+       color: green;
+   }
+
+   40%{
+       content: "Thank You";
+       color: darkgreen;
+   }
+   
+    50%{
+       content: "Thank You";
+       color: lightgreen;
+   }
+   
+    60%{
+       content: "Thank You";
+       color: purple;
+   }
+   
+    70%{
+       content: "Thank You";
+       color: indigo;
+   }
+
+   80%{
+    content: "Thank You";
+    color: black;
+   }
+}
